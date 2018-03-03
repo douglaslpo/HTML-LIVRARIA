@@ -35,7 +35,109 @@ footer {
 }
 
 .social img {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+footer {
+    background-color: #2884e0;
+    position: relative;
+    padding: 10px;
+    clear: both;
+}
+
+.social image {
     padding: 10px;
 }
 
+.destaque {
+    height: 400px;
+    padding: 20px 0;
+    width: 300px;
+    width: 300px;
+    margin-right: 20px;
+    float: left;
+    clear: both;
+}
 
+.busca {
+    background-color: #2884e0;
+    width: 100%;
+    margin-right: 10px;
+}
+
+.busca h2 .busca form {
+    margin: 10px;
+    padding: 0 10px;
+}
+
+form input {
+    vertical-align: bottom;
+}
+
+.busca input {
+    width: 200px;
+}
+
+.busca input[type=image]{
+    width: 21px;
+    height: 21px;
+    position: absolute;
+    right: 10px;
+}
+
+form {
+    position: relative;
+}
+
+.busca, .menu-departamentos {
+    background-color: #2884e0;
+    width: 100%;
+    margin-right: 10px;
+}
+
+.busca h2,
+.busca form,
+.menu-departamentos h2,
+.menu-departamentos nav > ul{
+    margin: 10px;
+    padding: 0 10px;
+}
+
+.menu-departamentos .categoria > li {
+    background-color: white;
+    margin-bottom: 1px;
+    padding: 5px 10px;
+}
+
+.menu-departamentos ul {
+    list-style-type: none;
+}
+
+.menu-departamentos a {
+    color: #333;
+    text-decoration: none;
+}
+
+.principal {
+    border: solid 1px #2884e0;
+    height: 100px;
+    overflow: hidden;
+    min-width: 40%;
+    padding: 20px;
+}
+
+.principal article {
+    background-color: #2884e0;
+    height: 100px;
+}
+
+.subcategorias {
+    display: none;
+    padding: 0 25px;
+}
+
+.categoria li:HOVER .subcategoria {
+    display: block; 
+}
